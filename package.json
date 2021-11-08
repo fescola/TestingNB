@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "TestingNB",
+  "description": "readme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
