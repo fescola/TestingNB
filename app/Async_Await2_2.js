@@ -2,7 +2,7 @@
 
 
 const dosSeg = () => {
-    return new Promise((resolve,reject)=>{
+    return new Promise((resolve)=>{
         setTimeout(() => {
             resolve (`hola`);
         }, 2000)
@@ -10,8 +10,7 @@ const dosSeg = () => {
 }
 async function nivell2(){
     try{
-        const msg = await dosSeg()
-        console.log(msg)
+        console.log(await dosSeg())
     } catch(err){
         console.log(err)
     }
