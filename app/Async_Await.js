@@ -46,13 +46,14 @@ const getSalary = (employee) => {
 }
 
 
-getEmployee(ID)
-    .then(employee => getSalary(employee))
-    .then(salary => console.log(salary))
-    .catch(err=> console.log(err.message))
+// getEmployee(ID)
+//     .then(employee => getSalary(employee))
+//     .then(salary => console.log(salary))
+//     .catch(err=> console.log(err.message))
 
 module.exports ={
-    getEmployee
+    getEmployee,
+    getSalary
 
 }
 
