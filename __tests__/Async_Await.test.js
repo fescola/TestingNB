@@ -7,3 +7,8 @@ test(' Busca salary desde employee', () => {
     expect(salary).toBe(4000);
   });
 });
+
+
+test('ID fora de rang', () => {
+  return expect(Async_Await.getEmployee(5)).rejects.toThrow(Error);
+});
