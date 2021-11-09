@@ -21,8 +21,8 @@ let salaries = [{
 }];
 
 const getEmployee= (newID) => {
-    let found = employees.find( empleat => empleat.id === newID )
     return new Promise(function(resolve, reject) {
+        let found = employees.find( empleat => empleat.id === newID )
         if(found != undefined)
         resolve (found);
         else
